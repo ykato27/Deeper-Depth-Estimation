@@ -1,6 +1,6 @@
-# python-template-repository
+# Deeper-Depth-Prediction
 
-本リポジトリはPython 環境のテンプレートリポジトリです。
+深度推定のexample リポジトリです。
 
 ## リポジトリ構成
 
@@ -13,6 +13,10 @@
 ├── docs
 ├── models
 ├── notebooks
+│   ├── Boostmonoculardepth.ipynb
+│   ├── Monocular_Depth_Estimation_Keras.ipynb
+│   ├── monodepth2_depth_prediction_example.ipynb
+│   └── octDPSNet_demo.ipynb
 ├── pyproject.toml
 ├── requirements.txt
 ├── setup.cfg
@@ -33,13 +37,13 @@
 
 ## 環境構築
 
-- Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/python-template-repository）
+- Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Deeper-Depth-Prediction）
 
 ```
-cd Desktop/python-template-repository
+cd Desktop/Deeper-Depth-Prediction
 ```
 
-- Dockerによる環境構築（フォルダをマウント：Desktop/python-template-repository）
+- Dockerによる環境構築（フォルダをマウント：Desktop/Deeper-Depth-Prediction）
 
 ```
 docker-compose up --build
