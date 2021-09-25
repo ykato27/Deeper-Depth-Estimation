@@ -1,4 +1,4 @@
-# Deeper-Depth-Prediction
+# Deeper-Depth-Estimation
 
 深度推定のexample リポジトリです。
 
@@ -37,13 +37,13 @@
 
 ## 環境構築
 
-- Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Deeper-Depth-Prediction）
+- Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Deeper-Depth-Estimation）
 
 ```
-cd Desktop/Deeper-Depth-Prediction
+cd Desktop/Deeper-Depth-Estimation
 ```
 
-- Dockerによる環境構築（フォルダをマウント：Desktop/Deeper-Depth-Prediction）
+- Dockerによる環境構築（フォルダをマウント：Desktop/Deeper-Depth-Estimation）
 
 ```
 docker-compose up --build
